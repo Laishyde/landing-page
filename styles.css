@@ -1,0 +1,479 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ccc;
+    font-family: 'Lato', sans-serif;
+   
+
+
+}
+html{
+    scroll-behavior: smooth;
+  
+
+}
+
+main {
+    width: 100%;
+
+
+
+
+}
+
+header {
+    background-image: url(./assets/sjsadvogados-slide-01.png);
+
+    width: 100%;
+
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.content {
+    padding-top: 40px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    color: #fff;
+}
+
+li {
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.nav-bar {
+
+    width: 75%;
+    display: flex;
+    background: rgba(0, 0, 0, 0.5);
+
+
+}
+
+.logo {
+    margin-left: 60px;
+}
+
+.info {
+    color: #fff;
+    margin-left: 60px;
+    margin-top: 80px;
+}
+
+.info h1 {
+    width: 700px;
+}
+
+.info h2 {
+    font-weight: 350;
+
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 400px;
+    color: coral;
+    height: 200px;
+
+}
+
+.one {
+    background-color: #fff;
+    height: 230px;
+    display: flex;
+    text-align: center;
+
+    justify-content: center;
+
+}
+
+.container:hover {
+    background-color: #000;
+    -webkit-transition: 0.7s;
+    color: #fff;
+
+
+}
+
+.two {
+    background-color: #000;
+    width: 400px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.tree {
+    background-color: #fff;
+    width: 400px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+i {
+    font-size: 70px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.ho {
+    width: 100px;
+    margin-top: 60px;
+    margin-right: 50px;
+    color: rgb(18, 18, 73);
+
+}
+
+.ho:hover {
+
+    color: #fff;
+    -webkit-transition: 0.7s;
+}
+
+
+.pp {
+    color: #fff;
+    width: 100px;
+    margin-top: 60px;
+    margin-right: 50px;
+}
+
+.about {
+    width: 800px;
+
+    font-weight: 550;
+    border-bottom: 4px solid coral;
+    padding: 20px;
+}
+
+.about2 {
+    border-bottom: none;
+    border-top: 4px solid coral;
+
+}
+
+.l {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.here {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: 900;
+    position: relative;
+
+
+
+}
+
+.containerone {
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.by {
+    width: 600px;
+    text-transform: uppercase;
+    line-height: 30px;
+
+}
+
+.box1 {
+    width: 100%;
+    height: 900px;
+    background-color: #000;
+    display: grid;
+    grid-template-columns:
+        repeat(3, auto);
+    gap: 5px 50px;
+    padding-top: 50px;
+    margin-top: 50px;
+
+
+}
+
+.box2 {
+    width: 350px;
+    height: 150px;
+    border-style: dotted;
+    border-color: #fff;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+
+
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns:
+        repeat(3, auto);
+    gap: 20px 50px;
+    height: 600px;
+
+}
+
+.image {
+    width: 350px;
+    height: 250px;
+}
+
+.image1 {
+    background-image: url(./assets/1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.image2 {
+    background-image: url(./assets/2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.image3 {
+    background-image: url(./assets/3.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.image4 {
+    background-image: url(./assets/4.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.image5 {
+    background-image: url(./assets/5.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.image6 {
+    background-image: url(./assets/6.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+#equipe {
+    background-color: #000;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.item {
+    width: 300px;
+    height: 400px;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+
+}
+
+.item img {
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    filter: grayscale(0.9);
+    transition: 0.1s;
+}
+
+.item img:hover {
+    filter: none;
+}
+
+.option {
+
+
+    width: 300px;
+    height: 100px;
+    text-transform: uppercase;
+    overflow: hidden;
+    color: #000;
+    background-color: #fff;
+    transition: all 2200ms linear 0ms;
+
+
+}
+
+.item:hover .option {
+    transition: all 2200ms linear 0ms;
+    z-index: 1;
+    width: 300px;
+    height: 100px;
+    background: #b97d2e;
+    background-image: -webkit-linear-gradient(left, #d5aa6d, #b97d2e);
+    opacity: 1;
+    overflow: hidden;
+}
+
+
+
+.option .two3 {
+
+    display: none;
+}
+
+.item:hover .option .two3 {
+    display: block;
+    transition: 1s;
+    z-index: 1;
+    opacity: 1;
+}
+
+.item:hover .option .first {
+    display: none;
+    transition: 1s;
+}
+
+.item .option h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.icon {
+    color: #000;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0;
+
+
+}
+
+.two3 {
+    color: #fff;
+    padding: 20px;
+}
+
+.first {
+    padding: 20px;
+}
+
+.second {
+    width: 100%;
+    display: flex;
+    color: #fff;
+    background-color: #000;
+    justify-content: space-around;
+
+
+}
+
+.p1 {
+    width: 500px;
+    padding: 30px;
+    line-height: 25px;
+
+}
+
+.p2 {
+    padding: 20px;
+    color: coral;
+    font-size: 30px;
+    width: 400px;
+}
+
+.final {
+    width: 500px;
+    text-align: center;
+}
+
+.final2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.direitos {
+    border-bottom: 4px solid coral;
+}
+
+label {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(155, 151, 151);
+}
+
+.message {
+    padding: 40px;
+}
+
+button {
+    padding: 10px 180px;
+    border-radius: 30px;
+    background-image: -webkit-linear-gradient(left, #d5aa6d, #b97d2e);
+    color: #fff;
+    border: 1px solid #ccc;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-image: url(https:albuquerque.merustv.com/assets/img/rodape.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.copy {
+    padding-top: 120px;
+    color: #fff;
+
+}
+
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: coral;
+}

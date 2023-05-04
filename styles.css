@@ -4,9 +4,6 @@ body {
     box-sizing: border-box;
     background-color: #ccc;
     font-family: 'Lato', sans-serif;
-   
-
-
 }
 html{
     scroll-behavior: smooth;
@@ -17,16 +14,12 @@ html{
 main {
     width: 100%;
 
-
-
-
 }
 
 header {
     background-image: url(./assets/sjsadvogados-slide-01.png);
 
     width: 100%;
-
     font-family: 'Lato', sans-serif;
     font-weight: 900;
     font-size: 20px;

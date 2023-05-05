@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #ccc;
+    background-color: #fff;
     font-family: 'Lato', sans-serif;
 }
 html{
@@ -17,8 +17,10 @@ main {
 }
 
 header {
-    background-image: url(./assets/sjsadvogados-slide-01.png);
-
+    background-image: url(./assets/image-mental.png);
+    background-position: center;
+    background-size: cover;
+  height: 600px;
     width: 100%;
     font-family: 'Lato', sans-serif;
     font-weight: 900;
@@ -32,7 +34,7 @@ header {
 ul {
     list-style: none;
     display: flex;
-    color: #fff;
+    color: #000;
 }
 
 li {
@@ -44,7 +46,7 @@ li {
 
     width: 75%;
     display: flex;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(255, 254, 254, 0.5);
 
 
 }
@@ -75,7 +77,7 @@ li {
 
 .container {
     width: 400px;
-    color: coral;
+    color: red;
     height: 200px;
 
 }
@@ -146,13 +148,13 @@ i {
     width: 800px;
 
     font-weight: 550;
-    border-bottom: 4px solid coral;
+    border-bottom: 4px solid red;
     padding: 20px;
 }
 
 .about2 {
     border-bottom: none;
-    border-top: 4px solid coral;
+    border-top: 4px solid red;
 
 }
 
@@ -238,40 +240,40 @@ i {
 }
 
 .image1 {
-    background-image: url(./assets/1.jpg);
+    background-image: url(./assets/tratamento-multidisciplinar.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .image2 {
-    background-image: url(./assets/2.jpg);
+    background-image: url(./assets/ipq.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .image3 {
-    background-image: url(./assets/3.jpg);
+    background-image: url(./assets/caism.jpg);
     background-position: center;
     background-size: cover;
 
 }
 
 .image4 {
-    background-image: url(./assets/4.jpg);
+    background-image: url(./assets/luta.png);
     background-position: center;
     background-size: cover;
 
 }
 
 .image5 {
-    background-image: url(./assets/5.jpg);
+    background-image: url(./assets/setembro-amarelo-2022-1200x675.jpg);
     background-position: center;
     background-size: cover;
 
 }
 
 .image6 {
-    background-image: url(./assets/6.jpg);
+    background-image: url(./assets/caps.jpg);
     background-position: center;
     background-size: cover;
 
@@ -326,8 +328,8 @@ i {
     z-index: 1;
     width: 300px;
     height: 100px;
-    background: #b97d2e;
-    background-image: -webkit-linear-gradient(left, #d5aa6d, #b97d2e);
+    background: red;
+       background-image: linear-gradient(to top, #f77062 0%, #ee3866 100%);
     opacity: 1;
     overflow: hidden;
 }
@@ -393,7 +395,7 @@ i {
 
 .p2 {
     padding: 20px;
-    color: coral;
+    color:red;
     font-size: 30px;
     width: 400px;
 }
@@ -410,7 +412,7 @@ i {
 }
 
 .direitos {
-    border-bottom: 4px solid coral;
+    border-bottom: 4px solid red;
 }
 
 label {
@@ -434,7 +436,7 @@ input {
 button {
     padding: 10px 180px;
     border-radius: 30px;
-    background-image: -webkit-linear-gradient(left, #d5aa6d, #b97d2e);
+    background-image: linear-gradient(to top, #f77062 0%, #ee3866 100%);
     color: #fff;
     border: 1px solid #ccc;
 }
@@ -447,7 +449,7 @@ form {
 footer {
     width: 100%;
     height: 200px;
-    background-image: url(https:albuquerque.merustv.com/assets/img/rodape.png);
+    background-image: url(./assets/flor.png);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -468,5 +470,5 @@ a {
 }
 
 a:hover {
-    color: coral;
+    color: #fff;
 }

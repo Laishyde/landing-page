@@ -1,4 +1,4 @@
-@media(max-width:900px) {
+@media(max-width:1200px) {
     .nav-bar {
         display: none;
     }
@@ -37,6 +37,9 @@
 
     header {
         width: 100%;
+        background-image: url(./assets/mental2.png);
+        background-position: center;
+        background-size: cover;
     }
 
     .res {
@@ -194,6 +197,7 @@
         content: "III";
         letter-spacing: -1px;
         font-size: 30px;
+        color: #fff;
     }
 
     summary:hover {
@@ -214,6 +218,7 @@
 
     details[open] summary::before {
         content: "X";
+        color: #fff;
     }
 
     details[open] summary::after {
@@ -224,7 +229,7 @@
         height: 0;
         width: fit-content;
         border-radius: var(--cornerRad);
-        background-color: #ccc;
+        background-color: #fff;
         box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
         margin-top: 8px;
         display: flex;
@@ -257,7 +262,7 @@
     }
 
     details::before {
-        content: "← Click This Button";
+        content: "";
         color: var(--secoColor);
         position: absolute;
         margin-left: 80px;
